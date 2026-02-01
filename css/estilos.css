@@ -1,9 +1,8 @@
 body {
 
-    background-image: url("/imagenesGalaxy/backgroundGalaxy.png");
+    background-image: url("../imagenesGalaxy/backgroundGalaxy.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
     
 }
