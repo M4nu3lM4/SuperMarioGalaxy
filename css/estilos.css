@@ -18,6 +18,7 @@ body {
 }
 
 
-header {
-    font-family: super_mario_256 ;
+header{
+    font-family:"SuperMario256" ;
+    src: url("../fuentes/SuperMario256.ttf");
 }
