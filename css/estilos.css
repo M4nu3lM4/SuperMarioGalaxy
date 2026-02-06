@@ -5,7 +5,7 @@ html, body {
 }
 
 @font-face {
-    font-family: "Super Mario 256";
+    font-family: "SuperMario256";
     src: url("../fuentes/SuperMario256.ttf");
 }
 
@@ -23,5 +23,5 @@ body {
 
 header h1{
     font-family:"SuperMario256" ;
-    src: url("../fuentes/SuperMario256.ttf");
+    
 }
