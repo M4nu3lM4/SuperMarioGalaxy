@@ -25,3 +25,7 @@ header h1{
     font-family:"SuperMario256" ;
     
 }
+
+* {
+    font-family: "SuperMario256" !important;
+}
