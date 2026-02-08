@@ -45,16 +45,16 @@ header h1 {
 
 /* NAV */
 nav {
-    background: #1a0000;
+    background: #02014c;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     padding: 15px;
-    border-bottom: 2px solid gold;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 
 nav a {
-    color: #fff;
+    color: #19c2ff;
     margin: 8px 18px;
     text-decoration: none;
     font-weight: bold;
