@@ -1,0 +1,10 @@
+.movie-header {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.movie-title {
+    max-width: 90%;
+    width: 1200px;   /* límite en desktop */
+    height: auto;
+}
