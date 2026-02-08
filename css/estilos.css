@@ -34,7 +34,7 @@ header h1 {
     
     /* Sombra para efecto 3D */
     text-shadow:
-        2px 2px 0 #000000, /* sombra negra lateral */
+        2px 2px 0 #040538, /* sombra negra lateral */
         4px 4px 5px rgba(0,0,0,0.4), /* sombra difusa */
         0 0 5px #ffffff, 
         0 0 10px #4fc3ff, 
