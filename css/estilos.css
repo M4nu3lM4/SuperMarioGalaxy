@@ -22,13 +22,22 @@ header {
 }
 
 header h1 {
-    color: rgb(252, 16, 16);
-    font-size: 4.5rem;
-    letter-spacing: 4px;
+    font-family: "SuperMario256", Arial, sans-serif;
+    font-size: 5rem;
     text-align: center;
+    letter-spacing: 3px;
+    
+    /* Color principal con degradado */
+    background: linear-gradient(145deg, #fefefe, #ffcc00, #ff0000, #9900cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* Sombra para efecto 3D */
     text-shadow:
-        0 0 5px #ffffff,
-        0 0 10px #4fc3ff,
-        0 0 20px #4fc3ff,
+        2px 2px 0 #000000, /* sombra negra lateral */
+        4px 4px 5px rgba(0,0,0,0.4), /* sombra difusa */
+        0 0 5px #ffffff, 
+        0 0 10px #4fc3ff, 
+        0 0 20px #4fc3ff, 
         0 0 40px #1e88e5;
 }
