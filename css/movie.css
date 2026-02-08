@@ -4,7 +4,7 @@
 }
 
 .movie-title {
-    max-width: 90%;
-    width: 1200px;   /* límite en desktop */
+    max-width: 800px;
+    width: 90%;   /* límite en desktop */
     height: auto;
 }
