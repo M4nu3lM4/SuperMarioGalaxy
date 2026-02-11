@@ -8,3 +8,21 @@
     width: 90%;   /* límite en desktop */
     height: auto;
 }
+
+@font-face {
+    font-family: "SuperMario256";
+    src: url("../fuentes/SuperMario256.ttf") format("truetype");
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: "SuperMario256", Arial, sans-serif;
+}
+
+body {
+    background-image: url("../imagenesGalaxy/backgroundGalaxy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
