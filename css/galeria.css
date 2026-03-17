@@ -3,9 +3,13 @@
             padding: 0;
             box-sizing: border-box;
         }
+        @font-face {
+    font-family: "SuperMario256";
+    src: url("../fuentes/SuperMario256.ttf") format("truetype");
+}
 
         body {
-            font-family: Arial, sans-serif;
+            font-family: "SuperMario256", Arial, sans-serif;
             background-image: url("../imagenesGalaxy/backgroundGalaxy.png");
             min-height: 100vh;
             padding: 20px;
