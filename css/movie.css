@@ -1,28 +1,89 @@
-.movie-header {
-    padding: 40px 0;
-    text-align: center;
-}
-
-.movie-title {
-    max-width: 800px;
-    width: 90%;   /* límite en desktop */
-    height: auto;
-}
-
-@font-face {
-    font-family: "SuperMario256";
-    src: url("../fuentes/SuperMario256.ttf") format("truetype");
-}
-
-html, body {
+* {
     margin: 0;
-    height: 100%;
-    font-family: "SuperMario256", Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    font-family: Arial, sans-serif;
     background-image: url("../imagenesGalaxy/backgroundGalaxy.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* NAV igual que galería */
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+/* HEADER centrado */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.movie-title {
+    max-width: 400px;
+    width: 100%;
+}
+
+/* CONTENEDOR estilo tarjeta */
+.movie-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.8s ease;
+}
+
+/* Título */
+.movie-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Texto */
+.movie-container p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+/* Animación suave */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
