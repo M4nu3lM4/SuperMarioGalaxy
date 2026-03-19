@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "SuperMario256" Arial, sans-serif;
     background-image: url("../imagenesGalaxy/backgroundGalaxy.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -14,6 +14,12 @@ body {
     min-height: 100vh;
     padding: 20px;
 }
+
+@font-face {
+    font-family: "SuperMario256";
+    src: url("../fuentes/SuperMario256.ttf") format("truetype");
+}
+
 
 /* NAV igual que galería */
 nav {
