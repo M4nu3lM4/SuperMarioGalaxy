@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "SuperMario256" Arial, sans-serif;
+    font-family: "SuperMario256", Arial, sans-serif;
     background-image: url("../imagenesGalaxy/backgroundGalaxy.png");
     background-repeat: no-repeat;
     background-position: center;
