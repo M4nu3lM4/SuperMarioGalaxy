@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "SuperMario256";
+    src: url("../fuentes/SuperMario256.ttf") format("truetype");
+}
 * {
     margin: 0;
     padding: 0;
