@@ -15,8 +15,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    min-height: 20vh;
-    padding: 20px;
+    min-height: 100vh;
+    padding: 0px;
 }
 
 header {
